@@ -1,1 +1,7 @@
 body {background-color: lightcoral;}
+
+/* CSS classes - reused in page */
+.course_of_project {
+    color: darkred; 
+    font-weight: bold;
+}
