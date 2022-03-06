@@ -70,6 +70,13 @@ h4 {
     margin-bottom: 5px;
 }
 
+h5 {
+    color: #000F70;
+    font-size: 1rem;
+    margin-left: 60px;
+    margin-bottom: 5px;
+}
+
 img {
     border: 1px solid #B1DAF3;
     border-radius: 8px;
@@ -115,7 +122,7 @@ table {
     border-collapse: collapse;
     background-color: #D4E3FE;
     text-align: center;
-    margin: 50px;
+    margin: 20px;
 }
 table, tr, td {
     border: 2px solid #2D58A8;
