@@ -1,7 +1,134 @@
-body {background-color: lightcoral;}
+/* CSS Reset */
+html {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    line-height: 1;
+}
+
+body {
+    background-color: #F5D795;
+    margin: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    text-align: center;
+    list-style: none;
+}
+
+li {
+    display: inline;
+    margin: 50px;
+    font-size: 1.5rem;
+  }
+  
+
+/* unvisited link*/
+a:link{
+    color: #C36F00;
+    text-decoration: none;
+}
+
+/* visited link*/
+a:visited{
+    color: #1354A8;
+    text-decoration: none;
+}
+
+/* mouse over link*/
+a:hover{
+    color: #6099F4;
+    text-decoration: none;
+}
+
+h1 {
+    color: #042561;
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 5px;
+    
+}
+
+h2 {
+    color: #042561;
+    font-style: italic;
+    text-align: center;
+    margin-top: 5px;
+}
+
+h3 {
+    color: #003A71;
+    font-size: 2rem;
+    margin-left: 50px;
+}
+
+h4 {
+    color: #000F70;
+    font-size: 1.5rem;
+    margin-left: 60px;
+    margin-bottom: 5px;
+
+}
+
+img {
+    border: 1px solid #B1DAF3;
+    border-radius: 8px;
+    margin-left: 70px;
+  }
+
+  figcaption {
+      margin-left: 80px;
+      font-style: oblique;
+  }
+
+p {
+    margin-left: 65px;
+    font-size: 1.3rem;
+}
 
 /* CSS classes - reused in page */
 .course_of_project {
-    color: darkred; 
+    color: #452E01; 
     font-weight: bold;
+}
+
+.member {
+    color: black; 
+    font-style: italic;
+    background-color: #F5D28D;
+    border: 0.5px #1F3F70 solid;
+}
+
+/* CSS ID - used once in page */
+#page_title {
+    color: navy;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border: 2px black solid;
+    padding: 25px;
+    margin: 10px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: #D4E3FE;
+    text-align: center;
+    margin: 50px;
+}
+table, tr, td {
+    border: 2px solid #2D58A8;
+    padding: 15px;
+}
+
+td {
+    width: 250px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
